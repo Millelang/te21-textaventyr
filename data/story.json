@@ -2,50 +2,173 @@
   "parts": [
     {
       "id": 0,
-      "name": "Your journey begins",
-      "image": "step-0.jpg",
-      "text": "As you step through the mystical portal, the air crackles with magic, and you find yourself standing in a breathtaking landscape of Eldoria. The sky is painted with hues unknown to your world, and fantastical creatures roam in the distance. Before you stretches a path leading to the heart of the realm. As you begin your journey, an ancient figure appears before you. 'Greetings, traveler! In Eldoria, you'll face challenges beyond your wildest imagination. But fear not, for you may choose a weapon to aid you on your quest.'",
+      "name": "The Wacky Adventures of Oatmeal-Loving Whiskers",
+      "image": "whiskers-wacky.jpg",
+      "text": "In the zaniest corner of the universe, you stumble upon a magical cat named Whiskers, known for its obsession with oatmeal. This peculiar feline sports a top hat and a monocle, giving it an air of sophistication.",
       "options": [
         {
-          "text": "Select the Enchanted Sword",
-          "path": "select_sword",
+          "text": "Politely offer Whiskers a bowl of oatmeal",
+          "path": "offer_oatmeal",
           "target": 1
         },
         {
-          "text": "Choose the Elemental Staff",
-          "path": "select_staff",
+          "text": "Perform a silly dance to entertain Whiskers",
+          "path": "silly_dance",
           "target": 2
         },
         {
-          "text": "Opt for the Arcane Bow",
-          "path": "select_bow",
+          "text": "Ask Whiskers to share oatmeal recipes",
+          "path": "oatmeal_recipes",
           "target": 3
         }
       ]
     },
     {
       "id": 1,
-      "name": "Part 2",
-      "text": "This is part 2",
+      "name": "The Oatmeal Feast Extravaganza",
+      "text": "Whiskers graciously accepts your offer and, with a flick of its tail, turns the bowl of oatmeal into a grand feast. The oatmeal starts dancing on the table, and you find yourself in the middle of an unexpected oatmeal party.",
       "options": [
         {
           "id": 2,
-          "text": "Go back to start",
-          "target": 0
+          "text": "Join the oatmeal dance party",
+          "target": 4
         }
       ]
     },
     {
       "id": 2,
-      "name": "Part 3",
-      "text": "This is part 3",
+      "name": "Silly Shenanigans",
+      "text": "Ignoring Whiskers, you break into the silliest dance moves you can muster. Whiskers bursts into laughter, and in its amusement, it offers to be your wacky dance partner for the rest of your journey.",
       "options": [
         {
+          "id": 3,
+          "text": "Accept Whiskers as your dance partner",
+          "target": 4
+        },
+        {
           "id": 4,
-          "text": "Go back to part 2",
+          "text": "Continue dancing solo",
+          "target": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Oatmeal Wisdom",
+      "text": "Whiskers eagerly shares oatmeal recipes, including 'Giggly Maple Madness' and 'Squiggly Cinnamon Surprise.' The recipes involve whimsical ingredients like laughter and sparkles. With your newfound oatmeal wisdom, you're ready for the adventures ahead.",
+      "options": [
+        {
+          "id": 5,
+          "text": "Thank Whiskers and embark on your oatmeal-infused journey",
+          "target": 6
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dance Party Galore",
+      "text": "You and Whiskers dance through fields of oatmeal, attracting the attention of enchanted creatures who join the festivities. The oatmeal dance party becomes the stuff of legends, and Whiskers becomes the Oatmeal Maestro of the universe.",
+      "options": [
+        {
+          "id": 6,
+          "text": "Lead the dance party to the next fantastical location",
+          "target": 7
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Oatmeal-free Zone",
+      "text": "Your decision to ignore Whiskers leads to an oatmeal-free journey. The world around you seems a bit dull without the magic of dancing oatmeal. Perhaps it's not too late to go back and embrace the whimsy!",
+      "options": [
+        {
+          "id": 7,
+          "text": "Turn back and join the oatmeal silliness",
+          "target": 1
+        },
+        {
+          "id": 8,
+          "text": "Forge ahead in search of oatmeal-free adventures",
+          "target": 9
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Whiskers' Whimsical Wonderland",
+      "text": "The dance party leads you to Whiskers' Whimsical Wonderland, a place filled with floating pancakes, giggling muffins, and rivers of syrup. Whiskers reveals its plan to turn the entire universe into a playground of oatmeal joy.",
+      "options": [
+        {
+          "id": 9,
+          "text": "Embrace the oatmeal-infused universe",
+          "target": 10
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Oatmeal-free Woes",
+      "text": "Without the magic of oatmeal, your journey becomes a series of mundane events. Even the forest creatures seem uninterested in your oatmeal-free endeavors. Maybe it's time to reconsider the oatmeal-less path!",
+      "options": [
+        {
+          "id": 10,
+          "text": "Turn back and seek out the oatmeal silliness",
+          "target": 1
+        },
+        {
+          "id": 11,
+          "text": "Persist in your quest for oatmeal-free adventures",
+          "target": 12
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Oatmeal Utopia",
+      "text": "With Whiskers' guidance, you reach the end of the whimsical universe, where oatmeal reigns supreme. Whiskers bids you farewell, leaving you with a top hat as a token of your oatmeal-filled adventure.",
+      "options": []
+    },
+    {
+      "id": 9,
+      "name": "The Oatmeal Revolution",
+      "text": "You join forces with Whiskers to spread the joy of oatmeal across the universe. Oatmeal cafes, oatmeal festivals, and even oatmeal roller coasters become the norm. You and Whiskers become the heroes of the Oatmeal Revolution!",
+      "options": [
+        {
+          "id": 12,
+          "text": "Continue the wacky oatmeal-filled adventures",
+          "target": 8
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Back to Oatmeal Bliss",
+      "text": "Realizing the folly of oatmeal-free adventures, you turn back to join Whiskers and the oatmeal silliness. The enchanted forest becomes a haven of oatmeal joy, and you continue your journey with a trail of giggling pancakes behind you.",
+      "options": [
+        {
+          "id": 12,
+          "text": "Embrace the oatmeal-filled universe once more",
+          "target": 8
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Oatmeal-less Misery",
+      "text": "Persisting in your quest for oatmeal-free adventures proves challenging. The world around you seems lackluster, and even the forest creatures avoid your company. Is it too late to go back and join the oatmeal-filled silliness?",
+      "options": [
+        {
+          "id": 12,
+          "text": "Admit defeat and return to the oatmeal-filled universe",
           "target": 1
         }
       ]
+    },
+    {
+      "id": 12,
+      "name": "Eternal Oatmeal Joy",
+      "text": "Whether you embraced the oatmeal-filled universe or sought oatmeal-free adventures, the joy of Whiskers' silliness remains eternal. The universe, now a canvas of oatmeal wonders, continues to bring laughter and smiles to all who encounter it.",
+      "options": []
     }
   ]
 }
