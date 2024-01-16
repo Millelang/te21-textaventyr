@@ -2,172 +2,153 @@
   "parts": [
     {
       "id": 0,
-      "name": "The Wacky Adventures of Oatmeal-Loving Whiskers",
-      "image": "whiskers-wacky.jpg",
-      "text": "In the zaniest corner of the universe, you stumble upon a magical cat named Whiskers, known for its obsession with oatmeal. This peculiar feline sports a top hat and a monocle, giving it an air of sophistication.",
+      "name": "The Magical Cat and the Oatmeal Quest",
+      "image": "whiskers.jpg",
+      "text": "Once upon a whisker-twisting day, in the whimsical town of Furrington, there lived a magical cat named Sir Fluffington. [PLAYER], a peculiar adventurer, had a particular obsession – [PLAYER] adored oatmeal. Yes, you heard it right, oatmeal! But not just any oatmeal; it had to be enchanted oatmeal to satisfy [PLAYER]'s magical taste buds.",
       "options": [
         {
-          "text": "Politely offer Whiskers a bowl of oatmeal",
-          "path": "offer_oatmeal",
+          "text": "Embark on the Oatmeal Quest",
+          "path": "start_quest",
           "target": 1
         },
         {
-          "text": "Perform a silly dance to entertain Whiskers",
-          "path": "silly_dance",
+          "text": "Ignore the Oatmeal Obsession",
+          "path": "ignore_quest",
           "target": 2
-        },
-        {
-          "text": "Ask Whiskers to share oatmeal recipes",
-          "path": "oatmeal_recipes",
-          "target": 3
         }
       ]
     },
     {
       "id": 1,
-      "name": "The Oatmeal Feast Extravaganza",
-      "text": "Whiskers graciously accepts your offer and, with a flick of its tail, turns the bowl of oatmeal into a grand feast. The oatmeal starts dancing on the table, and you find yourself in the middle of an unexpected oatmeal party.",
+      "name": "The Oatmeal Quest Begins",
+      "image": "story1.jpg",
+      "text": "Unable to resist the allure of enchanted oatmeal, [PLAYER] embarked on a grand adventure. [PLAYER]'s quest led [PLAYER] through meadows filled with bouncing bunnies, over candy cane bridges, and into the mysterious Oatmeal Forest.",
       "options": [
         {
           "id": 2,
-          "text": "Join the oatmeal dance party",
+          "text": "Confront the Oatmeal Wizard",
+          "target": 3
+        },
+        {
+          "id": 3,
+          "text": "Befriend the Candy Cane Bridge Troll",
           "target": 4
         }
       ]
     },
     {
       "id": 2,
-      "name": "Silly Shenanigans",
-      "text": "Ignoring Whiskers, you break into the silliest dance moves you can muster. Whiskers bursts into laughter, and in its amusement, it offers to be your wacky dance partner for the rest of your journey.",
-      "options": [
-        {
-          "id": 3,
-          "text": "Accept Whiskers as your dance partner",
-          "target": 4
-        },
-        {
-          "id": 4,
-          "text": "Continue dancing solo",
-          "target": 5
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Oatmeal Wisdom",
-      "text": "Whiskers eagerly shares oatmeal recipes, including 'Giggly Maple Madness' and 'Squiggly Cinnamon Surprise.' The recipes involve whimsical ingredients like laughter and sparkles. With your newfound oatmeal wisdom, you're ready for the adventures ahead.",
+      "name": "The Consequences of Ignoring Oatmeal",
+      "image": "story2.jpg",
+      "text": "Meanwhile, in Furrington, chaos ensued as [PLAYER]'s absence triggered oatmeal-related disasters. Enchanted porridge flooded the streets, and oatmeal monsters terrorized the townsfolk. The mayor, a wise old owl, urgently sought a solution.",
       "options": [
         {
           "id": 5,
-          "text": "Thank Whiskers and embark on your oatmeal-infused journey",
+          "text": "Return to Furrington",
           "target": 6
         }
       ]
     },
     {
-      "id": 4,
-      "name": "Dance Party Galore",
-      "text": "You and Whiskers dance through fields of oatmeal, attracting the attention of enchanted creatures who join the festivities. The oatmeal dance party becomes the stuff of legends, and Whiskers becomes the Oatmeal Maestro of the universe.",
+      "id": 3,
+      "name": "Confronting the Oatmeal Wizard",
+      "text": "In the heart of the Oatmeal Forest, [PLAYER] faced the mighty Oatmeal Wizard, a wise old cat with a long, flowing beard made of spaghetti. To prove [PLAYER]'s worthiness, [PLAYER] challenged the wizard to a dance-off, oatmeal style!",
       "options": [
         {
           "id": 6,
-          "text": "Lead the dance party to the next fantastical location",
+          "text": "Dance with Gusto!",
           "target": 7
         }
       ]
     },
     {
-      "id": 5,
-      "name": "Oatmeal-free Zone",
-      "text": "Your decision to ignore Whiskers leads to an oatmeal-free journey. The world around you seems a bit dull without the magic of dancing oatmeal. Perhaps it's not too late to go back and embrace the whimsy!",
+      "id": 4,
+      "name": "Befriending the Candy Cane Bridge Troll",
+      "text": "The Candy Cane Bridge Troll, a sweet-toothed giant, demanded a toll in the form of oatmeal cookies. [PLAYER], always prepared, offered a magical batch of cookies that made the troll do the cha-cha. With the troll as an ally, the path to the Oatmeal Wizard lay open.",
       "options": [
         {
-          "id": 7,
-          "text": "Turn back and join the oatmeal silliness",
-          "target": 1
-        },
-        {
           "id": 8,
-          "text": "Forge ahead in search of oatmeal-free adventures",
-          "target": 9
+          "text": "Proceed to the Oatmeal Wizard",
+          "target": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Return to Furrington",
+      "text": "Realizing the gravity of the oatmeal crisis, [PLAYER] hurried back to Furrington. The mayor, grateful for [PLAYER]'s return, declared a town-wide oatmeal feast in [PLAYER]'s honor. [PLAYER] became the oatmeal hero of Furrington, and every cat wanted to be as magical as [PLAYER].",
+      "options": [
+        {
+          "id": 9,
+          "text": "The End",
+          "target": -1
         }
       ]
     },
     {
       "id": 6,
-      "name": "Whiskers' Whimsical Wonderland",
-      "text": "The dance party leads you to Whiskers' Whimsical Wonderland, a place filled with floating pancakes, giggling muffins, and rivers of syrup. Whiskers reveals its plan to turn the entire universe into a playground of oatmeal joy.",
+      "name": "Dancing with Gusto!",
+      "text": "[PLAYER] unleashed [PLAYER]'s finest oatmeal-inspired dance moves, twirling and whisker-shaking with unmatched grace. The Oatmeal Wizard, impressed by [PLAYER]'s rhythm, declared [PLAYER] the true Oatmeal Champion. In celebration, the wizard conjured a never-ending supply of enchanted oatmeal for [PLAYER]'s enjoyment.",
       "options": [
         {
           "id": 9,
-          "text": "Embrace the oatmeal-infused universe",
-          "target": 10
+          "text": "The End",
+          "target": -1
         }
       ]
     },
     {
       "id": 7,
-      "name": "Oatmeal-free Woes",
-      "text": "Without the magic of oatmeal, your journey becomes a series of mundane events. Even the forest creatures seem uninterested in your oatmeal-free endeavors. Maybe it's time to reconsider the oatmeal-less path!",
+      "name": "The Oatmeal Wizard's Gift",
+      "text": "With the Oatmeal Wizard's approval, [PLAYER] received the ultimate gift – a magical oatmeal bowl that would never run empty. Rejoicing in [PLAYER]'s success, [PLAYER] returned to Furrington, where oatmeal parties became a daily occurrence, and the town lived happily ever after.",
       "options": [
         {
-          "id": 10,
-          "text": "Turn back and seek out the oatmeal silliness",
-          "target": 1
-        },
-        {
-          "id": 11,
-          "text": "Persist in your quest for oatmeal-free adventures",
-          "target": 12
+          "id": 9,
+          "text": "The End",
+          "target": -1
         }
       ]
     },
     {
       "id": 8,
-      "name": "Oatmeal Utopia",
-      "text": "With Whiskers' guidance, you reach the end of the whimsical universe, where oatmeal reigns supreme. Whiskers bids you farewell, leaving you with a top hat as a token of your oatmeal-filled adventure.",
-      "options": []
+      "name": "Proceeding to the Oatmeal Wizard",
+      "text": "With the Candy Cane Bridge Troll as a dance partner, [PLAYER] continued [PLAYER]'s journey. Together, they reached the heart of the Oatmeal Forest and confronted the Oatmeal Wizard. The three of them celebrated with a grand oatmeal party that echoed through Furrington, bringing joy and magic to all.",
+      "options": [
+        {
+          "id": 10,
+          "text": "Continue the Celebration",
+          "target": 9
+        }
+      ]
     },
     {
       "id": 9,
-      "name": "The Oatmeal Revolution",
-      "text": "You join forces with Whiskers to spread the joy of oatmeal across the universe. Oatmeal cafes, oatmeal festivals, and even oatmeal roller coasters become the norm. You and Whiskers become the heroes of the Oatmeal Revolution!",
+      "name": "The Grand Oatmeal Celebration",
+      "text": "Furrington was filled with laughter and joy as the townsfolk joined [PLAYER], the Oatmeal Wizard, and the Candy Cane Bridge Troll in a spectacular celebration. The oatmeal flowed like a magical river, and everyone danced until the stars twinkled with delight. [PLAYER]'s legacy as the Oatmeal Champion lived on, making [PLAYER] the toast of Furrington.",
       "options": [
         {
-          "id": 12,
-          "text": "Continue the wacky oatmeal-filled adventures",
-          "target": 8
+          "id": 11,
+          "text": "The End",
+          "target": -1
         }
       ]
     },
     {
       "id": 10,
-      "name": "Back to Oatmeal Bliss",
-      "text": "Realizing the folly of oatmeal-free adventures, you turn back to join Whiskers and the oatmeal silliness. The enchanted forest becomes a haven of oatmeal joy, and you continue your journey with a trail of giggling pancakes behind you.",
+      "name": "Continuing the Celebration",
+      "text": "The grand oatmeal celebration continued for days, spreading its magic throughout Furrington. [PLAYER], the Oatmeal Wizard, and the Candy Cane Bridge Troll became inseparable friends, creating a trio of merriment that would be remembered for generations.",
       "options": [
         {
-          "id": 12,
-          "text": "Embrace the oatmeal-filled universe once more",
-          "target": 8
+          "id": 11,
+          "text": "The End",
+          "target": -1
         }
       ]
     },
     {
       "id": 11,
-      "name": "Oatmeal-less Misery",
-      "text": "Persisting in your quest for oatmeal-free adventures proves challenging. The world around you seems lackluster, and even the forest creatures avoid your company. Is it too late to go back and join the oatmeal-filled silliness?",
-      "options": [
-        {
-          "id": 12,
-          "text": "Admit defeat and return to the oatmeal-filled universe",
-          "target": 1
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Eternal Oatmeal Joy",
-      "text": "Whether you embraced the oatmeal-filled universe or sought oatmeal-free adventures, the joy of Whiskers' silliness remains eternal. The universe, now a canvas of oatmeal wonders, continues to bring laughter and smiles to all who encounter it.",
+      "name": "The End",
+      "text": "And so, the tale of [PLAYER], the Magical Cat, and [PLAYER]'s oatmeal-filled adventures came to a close. Furrington remained a beacon of joy, where every cat dreamt of becoming a magical oatmeal enthusiast. May the whiskers twitch, the oatmeal flow, and the magic endure for all time!",
       "options": []
     }
   ]
