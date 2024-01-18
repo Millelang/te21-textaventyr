@@ -44,7 +44,7 @@
       "options": [
         {
           "id": 5,
-          "text": "Return to Furrington",
+          "text": "Go seek the Wizards help",
           "target": 6
         }
       ]
@@ -52,11 +52,12 @@
     {
       "id": 3,
       "name": "Confronting the Oatmeal Wizard",
+      "image": "Spaghettiwizard.jpg",
       "text": "In the heart of the Oatmeal Forest, [PLAYER] faced the mighty Oatmeal Wizard, a wise old cat with a long, flowing beard made of spaghetti. To prove [PLAYER]'s worthiness, [PLAYER] challenged the wizard to a dance-off, oatmeal style!",
       "options": [
         {
           "id": 6,
-          "text": "Dance with Gusto!",
+          "text": "Dance with the Wizard!",
           "target": 7
         }
       ]
@@ -64,12 +65,18 @@
     {
       "id": 4,
       "name": "Befriending the Candy Cane Bridge Troll",
+      "image": "Candycane.jpg",
       "text": "The Candy Cane Bridge Troll, a sweet-toothed giant, demanded a toll in the form of oatmeal cookies. [PLAYER], always prepared, offered a magical batch of cookies that made the troll do the cha-cha. With the troll as an ally, the path to the Oatmeal Wizard lay open.",
       "options": [
         {
           "id": 8,
           "text": "Proceed to the Oatmeal Wizard",
           "target": 3
+        },
+        {
+          "id": 12,
+          "text": "Return to Furrington",
+          "target": 2
         }
       ]
     },
@@ -81,19 +88,20 @@
         {
           "id": 9,
           "text": "The End",
-          "target": -1
+          "target": 11
         }
       ]
     },
     {
       "id": 6,
       "name": "Dancing with Gusto!",
+      "image":"infiniteoatmeal.jpg",
       "text": "[PLAYER] unleashed [PLAYER]'s finest oatmeal-inspired dance moves, twirling and whisker-shaking with unmatched grace. The Oatmeal Wizard, impressed by [PLAYER]'s rhythm, declared [PLAYER] the true Oatmeal Champion. In celebration, the wizard conjured a never-ending supply of enchanted oatmeal for [PLAYER]'s enjoyment.",
       "options": [
         {
           "id": 9,
-          "text": "The End",
-          "target": -1
+          "text": "Go back to the town and have a party!",
+          "target": 9
         }
       ]
     },
@@ -105,7 +113,7 @@
         {
           "id": 9,
           "text": "The End",
-          "target": -1
+          "target": 11
         }
       ]
     },
@@ -124,12 +132,13 @@
     {
       "id": 9,
       "name": "The Grand Oatmeal Celebration",
+      "image": "bigparty.jpg",
       "text": "Furrington was filled with laughter and joy as the townsfolk joined [PLAYER], the Oatmeal Wizard, and the Candy Cane Bridge Troll in a spectacular celebration. The oatmeal flowed like a magical river, and everyone danced until the stars twinkled with delight. [PLAYER]'s legacy as the Oatmeal Champion lived on, making [PLAYER] the toast of Furrington.",
       "options": [
         {
           "id": 11,
           "text": "The End",
-          "target": -1
+          "target": 11
         }
       ]
     },
@@ -141,7 +150,7 @@
         {
           "id": 11,
           "text": "The End",
-          "target": -1
+          "target": 11
         }
       ]
     },

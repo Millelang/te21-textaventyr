@@ -11,7 +11,7 @@ router.get('/', function (req, res) {
 router.post('/username', function (req, res) {
 req.session.username = req.body.username
 console.log(req.session.username)
-res.redirect('/story/1')
+res.redirect('/story/0')
 })
 
 router.get('/story/:id', function (req, res) {
