@@ -9,9 +9,9 @@ router.get('/', function (req, res) {
 })
 
 router.post('/username', function (req, res) {
-req.session.username = req.body.username
-console.log(req.session.username)
-res.redirect('/story/0')
+  req.session.username = req.body.username
+  console.log(req.session.username)
+  res.redirect('/story/0')
 })
 
 router.get('/story/:id', function (req, res) {
@@ -24,7 +24,7 @@ router.get('/story/:id', function (req, res) {
 
   let text = part.text.replace(/\[PLAYER\]/g, req.session.username);
 
-  part = {...part, text : text}
+  part = { ...part, text: text }
   console.log(part)
   console.log(text)
   console.log(req.session.username)

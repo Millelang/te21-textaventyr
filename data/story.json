@@ -2,9 +2,9 @@
   "parts": [
     {
       "id": 0,
-      "name": "The Magical Cat and the Oatmeal Quest",
+      "name": "The Enchanted Oatmeal Quest",
       "image": "whiskers.jpg",
-      "text": "Once upon a whisker-twisting day, in the whimsical town of Furrington, there lived a magical cat named Sir Fluffington. [PLAYER], a peculiar adventurer, had a particular obsession – [PLAYER] adored oatmeal. Yes, you heard it right, oatmeal! But not just any oatmeal; it had to be enchanted oatmeal to satisfy [PLAYER]'s magical taste buds.",
+      "text": "In the charming town of Furrington, a peculiar adventurer named [PLAYER] had a unique obsession – enchanted oatmeal. Meet Sir Fluffington, the magical cat. One whimsical day, the townsfolk were startled as enchanted porridge flooded the streets and oatmeal monsters terrorized the town, all due to [PLAYER]'s sudden disappearance.",
       "options": [
         {
           "text": "Embark on the Oatmeal Quest",
@@ -12,8 +12,8 @@
           "target": 1
         },
         {
-          "text": "Ignore the Oatmeal Obsession",
-          "path": "ignore_quest",
+          "text": "Investigate the Oatmeal Chaos",
+          "path": "investigate_chaos",
           "target": 2
         }
       ]
@@ -22,30 +22,35 @@
       "id": 1,
       "name": "The Oatmeal Quest Begins",
       "image": "story1.jpg",
-      "text": "Unable to resist the allure of enchanted oatmeal, [PLAYER] embarked on a grand adventure. [PLAYER]'s quest led [PLAYER] through meadows filled with bouncing bunnies, over candy cane bridges, and into the mysterious Oatmeal Forest.",
+      "text": "[PLAYER] couldn't resist the allure of enchanted oatmeal and embarked on a grand adventure. Journeying through meadows, candy cane bridges, and the mysterious Oatmeal Forest, [PLAYER] faced choices that would shape the fate of Furrington.",
       "options": [
         {
-          "id": 2,
+          "id": 3,
           "text": "Confront the Oatmeal Wizard",
           "target": 3
         },
         {
-          "id": 3,
+          "id": 4,
           "text": "Befriend the Candy Cane Bridge Troll",
           "target": 4
+        },
+        {
+          "id": 5,
+          "text": "Explore the Oatmeal Forest",
+          "target": 5
         }
       ]
     },
     {
       "id": 2,
-      "name": "The Consequences of Ignoring Oatmeal",
+      "name": "Investigating the Oatmeal Chaos",
       "image": "story2.jpg",
-      "text": "Meanwhile, in Furrington, chaos ensued as [PLAYER]'s absence triggered oatmeal-related disasters. Enchanted porridge flooded the streets, and oatmeal monsters terrorized the townsfolk. The mayor, a wise old owl, urgently sought a solution.",
+      "text": "Furrington was in chaos! Oatmeal-related disasters plagued the town. The wise old owl mayor urgently sought a solution. [PLAYER], realizing the gravity of the situation, had to make a decision.",
       "options": [
         {
-          "id": 5,
+          "id": 3,
           "text": "Go seek the Wizards help",
-          "target": 6
+          "target": 3
         }
       ]
     },
@@ -56,7 +61,7 @@
       "text": "In the heart of the Oatmeal Forest, [PLAYER] faced the mighty Oatmeal Wizard, a wise old cat with a long, flowing beard made of spaghetti. To prove [PLAYER]'s worthiness, [PLAYER] challenged the wizard to a dance-off, oatmeal style!",
       "options": [
         {
-          "id": 6,
+          "id": 7,
           "text": "Dance with the Wizard!",
           "target": 7
         }
@@ -71,48 +76,54 @@
         {
           "id": 8,
           "text": "Proceed to the Oatmeal Wizard",
-          "target": 3
+          "target": 8
         },
         {
-          "id": 12,
+          "id": 9,
+          "text": "Explore more of the Oatmeal Forest",
+          "target": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Exploring the Oatmeal Forest",
+      "image": "forest.jpg",
+      "text": "Deep within the Oatmeal Forest, [PLAYER] encountered mystical creatures and hidden secrets. The enchanted flora and fauna held clues to [PLAYER]'s quest. As [PLAYER] delved further, [PLAYER] uncovered more mysteries that could aid in saving Furrington.",
+      "options": [
+        {
+          "id": 9,
+          "text": "Continue Exploring",
+          "target": 9
+        },
+        {
+          "id": 10,
           "text": "Return to Furrington",
           "target": 2
         }
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Return to Furrington",
       "text": "Realizing the gravity of the oatmeal crisis, [PLAYER] hurried back to Furrington. The mayor, grateful for [PLAYER]'s return, declared a town-wide oatmeal feast in [PLAYER]'s honor. [PLAYER] became the oatmeal hero of Furrington, and every cat wanted to be as magical as [PLAYER].",
       "options": [
         {
-          "id": 9,
+          "id": 11,
           "text": "The End",
           "target": 11
         }
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Dancing with Gusto!",
-      "image":"infiniteoatmeal.jpg",
+      "image": "infiniteoatmeal.jpg",
       "text": "[PLAYER] unleashed [PLAYER]'s finest oatmeal-inspired dance moves, twirling and whisker-shaking with unmatched grace. The Oatmeal Wizard, impressed by [PLAYER]'s rhythm, declared [PLAYER] the true Oatmeal Champion. In celebration, the wizard conjured a never-ending supply of enchanted oatmeal for [PLAYER]'s enjoyment.",
       "options": [
         {
-          "id": 9,
+          "id": 11,
           "text": "Go back to the town and have a party!",
-          "target": 9
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "name": "The Oatmeal Wizard's Gift",
-      "text": "With the Oatmeal Wizard's approval, [PLAYER] received the ultimate gift – a magical oatmeal bowl that would never run empty. Rejoicing in [PLAYER]'s success, [PLAYER] returned to Furrington, where oatmeal parties became a daily occurrence, and the town lived happily ever after.",
-      "options": [
-        {
-          "id": 9,
-          "text": "The End",
           "target": 11
         }
       ]
@@ -123,29 +134,29 @@
       "text": "With the Candy Cane Bridge Troll as a dance partner, [PLAYER] continued [PLAYER]'s journey. Together, they reached the heart of the Oatmeal Forest and confronted the Oatmeal Wizard. The three of them celebrated with a grand oatmeal party that echoed through Furrington, bringing joy and magic to all.",
       "options": [
         {
-          "id": 10,
+          "id": 12,
           "text": "Continue the Celebration",
-          "target": 9
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "name": "The Grand Oatmeal Celebration",
-      "image": "bigparty.jpg",
-      "text": "Furrington was filled with laughter and joy as the townsfolk joined [PLAYER], the Oatmeal Wizard, and the Candy Cane Bridge Troll in a spectacular celebration. The oatmeal flowed like a magical river, and everyone danced until the stars twinkled with delight. [PLAYER]'s legacy as the Oatmeal Champion lived on, making [PLAYER] the toast of Furrington.",
-      "options": [
-        {
-          "id": 11,
-          "text": "The End",
           "target": 11
         }
       ]
     },
     {
+      "id": 9,
+      "name": "Continuing to Explore the Oatmeal Forest",
+      "text": "Venturing deeper into the mystical Oatmeal Forest, [PLAYER] discovered ancient ruins and encountered magical creatures. Each discovery brought [PLAYER] closer to understanding the source of the enchanted oatmeal and its connection to Furrington's well-being.",
+      "options": [
+        {
+          "id": 12,
+          "text": "Return to Furrington",
+          "target": 6
+        }
+      ]
+    },
+    {
       "id": 10,
-      "name": "Continuing the Celebration",
-      "text": "The grand oatmeal celebration continued for days, spreading its magic throughout Furrington. [PLAYER], the Oatmeal Wizard, and the Candy Cane Bridge Troll became inseparable friends, creating a trio of merriment that would be remembered for generations.",
+      "name": "The Grand Oatmeal Celebration",
+      "image": "bigparty.jpg",
+      "text": "Furrington was filled with laughter and joy as the townsfolk joined [PLAYER], the Oatmeal Wizard, and the Candy Cane Bridge Troll in a spectacular celebration. The oatmeal flowed like a magical river, and everyone danced until the stars twinkled with delight. [PLAYER]'s legacy as the Oatmeal Champion lived on, making [PLAYER] the toast of Furrington.",
       "options": [
         {
           "id": 11,
