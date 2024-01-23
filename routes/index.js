@@ -8,6 +8,7 @@ router.get('/', function (req, res) {
   res.render('index.njk', { title: 'Welcome', part: story.parts[0] })
 })
 
+
 router.post('/username', function (req, res) {
   req.session.username = req.body.username
   console.log(req.session.username)
@@ -31,5 +32,18 @@ router.get('/story/:id', function (req, res) {
 
   res.render('part.njk', { title: text, part: part })
 })
+
+const pool = require('./db') 
+
+router.get('/dbtest', async (req, res) => {
+  try {
+    const [parts] = await pool.promise().query('SELECT * FROM milton_part')
+    res.json({ parts})
+  } catch (error) {
+    console.log(error)
+    res.sendStatus(500)
+  }
+})
+
 
 module.exports = router
